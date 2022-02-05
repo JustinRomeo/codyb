@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top,    blue, brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Glass{
+    background-color: white;
+    height: 80vh;
+    width: 60%;
+    border-radius: 15px;
+    z-index: 1;
+    backdrop-filter: blur(9rem);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    display:flex;
+}
+
+.circle1, .circle2{
+    height: 120px;
+    width: 120px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1{
+    top: 7%;
+    left: 15%;
+}
+.circle2{
+    bottom: 8%;
+    right: 5%;
+}
+
+.profile{
+    width: 25%;
+    background-color: whitesmoke;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.movies{
+    height: 100%;
+    width: 75%;
+    border-radius: 0px 15px 15px 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+}
+
+.row1{
+    height: 23vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row1> img{
+    width: 11px;
+    height: 120px;
+}
